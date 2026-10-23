@@ -1,0 +1,5 @@
+# Case 2 Enhanced metric caveats
+
+The screenshot shows two clients completing with `status=OK`, four parallel connections per client, and server failure probability 0.001. Client A reports 4,867 files and 60,738,750 useful bytes; Client B reports 4,866 files and 60,715,664 useful bytes. Both report 60,686,716 received bytes, the expected topic byte count. The reported completed-file/useful-byte counters exceed the source total, so they are retained as raw observations and not treated as unique useful payload.
+
+Normalized source-payload rate is calculated as 60,686,716 / elapsed seconds / 1,000,000. It is a derived rate from the expected topic size and reported elapsed time. The screenshot does not contain the results of the separate SHA-256 verification commands, so the package records integrity as NOT_CAPTURED_IN_ARTIFACT rather than asserting a verification pass. Complete per-client aggregate server bytes across parallel streams are not available, therefore retransmission overhead cannot be reliably calculated.

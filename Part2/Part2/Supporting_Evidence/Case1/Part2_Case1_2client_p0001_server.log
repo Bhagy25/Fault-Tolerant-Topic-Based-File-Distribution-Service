@@ -1,0 +1,4 @@
+[server] loaded 10 topics
+[server] listening on port 5001 mode=multi failure_probability=0.000100
+[server] status=OK files=4863 bytes=60686716 seconds=7.027425 MBps=8.636
+[server] status=OK files=4863 bytes=60686716 seconds=7.186592 MBps=8.444

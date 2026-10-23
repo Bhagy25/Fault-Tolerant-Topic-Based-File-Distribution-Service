@@ -1,0 +1,7 @@
+case,topic,failure_probability,run,status,files,client_received_bytes,useful_bytes,redundant_bytes,retries,client_seconds,client_MBps,server_bytes,server_seconds,server_MBps,verification,notes
+Case1,cane,0.0,1,OK,4863,60686716,60686716,0,0,43.854558,1.384,60686716,43.787863,1.386,PASS,"No injected fault; single laptop using WSL2 localhost"
+Case1,cane,0.001,1,ERROR,0,126706802,0,126706802,10,289.364121,0.000,126706802,,,NOT_COMPLETED,Fault injection exhausted retry limit; see p001 run1 logs
+Case1,cane,0.0,2,OK,4863,60686716,60686716,0,0,6.528548,9.296,60686716,,,PASS,Client A; simultaneous two-client localhost test; see server log
+Case1,cane,0.0,2,OK,4863,60686716,60686716,0,0,6.528244,9.296,60686716,,,PASS,Client B; simultaneous two-client localhost test; see server log
+Case1,cane,0.0002,2A,OK,4863,102028330,60686716,41341614,1,16.160375,3.755,102028330,,,PASS,"Two simultaneous clients; injected fault; recovered"
+Case1,cane,0.0002,2B,OK,4863,209153167,60686716,148466451,7,74.318346,0.817,209153167,,,PASS,"Two simultaneous clients; repeated faults; recovered"

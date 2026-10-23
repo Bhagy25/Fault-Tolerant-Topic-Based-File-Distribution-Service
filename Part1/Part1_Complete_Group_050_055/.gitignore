@@ -1,0 +1,16 @@
+# Compiled binaries (build with make on the target machine)
+Part1/server
+Part1/client
+Part2_Case1/server
+Part2_Case1/client
+Part2_Case2/server
+Part2_Case2/client
+Part2_Case2_Enhanced/server
+Part2_Case2_Enhanced/client
+# Generated datasets and downloads
+demo_dataset/
+downloads_*/
+downloads_test/
+bench_downloads/
+__pycache__/
+*.pyc

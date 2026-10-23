@@ -1,0 +1,4 @@
+case,client_A_redundant_bytes,client_B_redundant_bytes,status,reason
+Case 1,41341614,148466451,AVAILABLE_FROM_CLIENT_METRICS,Case 1 client counters directly report redundant bytes.
+Case 2,,,NOT_RELIABLY_MEASURED,Complete per-client server-byte totals across reconnect attempts were not captured; client useful/file counters overcount resume anchor.
+Case 2 Enhanced,,,NOT_RELIABLY_MEASURED,Per-client aggregate transmitted bytes across parallel streams were not captured; client useful/file counters exceed source totals.

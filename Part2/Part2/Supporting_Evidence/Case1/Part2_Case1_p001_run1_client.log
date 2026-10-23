@@ -1,0 +1,22 @@
+[client] connection lost, restarting topic from beginning (retry 1/10)
+[client] connection lost, restarting topic from beginning (retry 2/10)
+[client] connection lost, restarting topic from beginning (retry 3/10)
+[client] connection lost, restarting topic from beginning (retry 4/10)
+[client] connection lost, restarting topic from beginning (retry 5/10)
+[client] connection lost, restarting topic from beginning (retry 6/10)
+[client] connection lost, restarting topic from beginning (retry 7/10)
+[client] connection lost, restarting topic from beginning (retry 8/10)
+[client] connection lost, restarting topic from beginning (retry 9/10)
+[client] connection lost, restarting topic from beginning (retry 10/10)
+[client] topic=cane expected_files=4863
+[client] topic=cane expected_files=4863
+[client] topic=cane expected_files=4863
+[client] topic=cane expected_files=4863
+[client] topic=cane expected_files=4863
+[client] topic=cane expected_files=4863
+[client] topic=cane expected_files=4863
+[client] topic=cane expected_files=4863
+[client] topic=cane expected_files=4863
+[client] topic=cane expected_files=4863
+[client] topic=cane expected_files=4863
+METRIC mode=case1 status=ERROR files=0 received_bytes=126706802 useful_bytes=0 redundant_bytes=126706802 retries=10 seconds=289.364121 MBps=0.000

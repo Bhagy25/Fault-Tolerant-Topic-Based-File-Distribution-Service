@@ -1,0 +1,7 @@
+case,failure_probability,recovery_mechanism,client,retries,elapsed_seconds,normalized_source_payload_MBps,reported_files,reported_useful_bytes,reported_redundant_bytes,integrity_evidence
+Case 1,0.0002,No session management; whole-topic restart,A,1,16.160375,3.755279,4863,60686716,41341614,NOT_RECONFIRMED
+Case 1,0.0002,No session management; whole-topic restart,B,7,74.318346,0.816578,4863,60686716,148466451,NOT_RECONFIRMED
+Case 2,0.001,Session management; checkpoint resume; 1 connection/client,A,5,115.218855,0.526708,4868,60745977,,USER_CONFIRMED_PASS
+Case 2,0.001,Session management; checkpoint resume; 1 connection/client,B,6,124.425056,0.487737,4869,60767371,,USER_CONFIRMED_PASS
+Case 2 Enhanced,0.001,Checkpoint resume; 4 parallel connections/client,A,4,25.680397,2.363153,4867,60738750,,NOT_CAPTURED_IN_ARTIFACT
+Case 2 Enhanced,0.001,Checkpoint resume; 4 parallel connections/client,B,3,25.628953,2.367897,4866,60715664,,NOT_CAPTURED_IN_ARTIFACT

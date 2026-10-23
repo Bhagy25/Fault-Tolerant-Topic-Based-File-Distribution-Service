@@ -1,0 +1,4 @@
+[client] connection lost, restarting topic from beginning (retry 1/10)
+[client] topic=cane expected_files=4863
+[client] topic=cane expected_files=4863
+METRIC mode=case1 status=OK files=4863 received_bytes=102028330 useful_bytes=60686716 redundant_bytes=41341614 retries=1 seconds=16.160375 MBps=3.755

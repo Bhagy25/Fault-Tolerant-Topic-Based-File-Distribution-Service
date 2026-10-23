@@ -1,0 +1,20 @@
+[server] loaded 10 topics
+[server] listening on port 5001 mode=multi failure_probability=0.000200
+[server] FAULT injected after chunk file=OIP-5Sz2sqBuQdOxXxp0NWhn9wHaJV.jpeg bytes=6168508
+[server] status=ERROR files=494 bytes=6168508 seconds=2.175368 MBps=2.836
+[server] FAULT injected after chunk file=OIP-fG8QcqVOAA-d32U-Vfke8AHaGi.jpeg bytes=41341614
+[server] status=ERROR files=3316 bytes=41341614 seconds=5.698696 MBps=7.255
+[server] FAULT injected after chunk file=OIP-Ygx8HBXB1ItA1muvsljM7wHaE8.jpeg bytes=33896634
+[server] status=ERROR files=2732 bytes=33896634 seconds=5.776438 MBps=5.868
+[server] FAULT injected after chunk file=OIP-GMB-vAC9IryZufwjkL4qegHaE7.jpeg bytes=16485305
+[server] status=ERROR files=1324 bytes=16485305 seconds=3.731186 MBps=4.418
+[server] status=OK files=4863 bytes=60686716 seconds=9.337091 MBps=6.500
+[server] FAULT injected after chunk file=OIP-oMomoTZ71hAQRycPYaPJggHaHO.jpeg bytes=49570486
+[server] status=ERROR files=3975 bytes=49570486 seconds=11.567486 MBps=4.285
+[server] FAULT injected after chunk file=OIP-DXmSzLm0wmV-FBJFy_2snQHaEE.jpeg bytes=14197755
+[server] status=ERROR files=1127 bytes=14197755 seconds=4.570548 MBps=3.106
+[server] FAULT injected after chunk file=OIP-Cw0T8mTBARUPJaYBclhKaQHaEK.jpeg bytes=13673588
+[server] status=ERROR files=1087 bytes=13673588 seconds=4.488481 MBps=3.046
+[server] FAULT injected after chunk file=OIP-DnyF2bLhv9mm68O11--BYAHaFj.jpeg bytes=14474175
+[server] status=ERROR files=1153 bytes=14474175 seconds=4.686132 MBps=3.089
+[server] status=OK files=4863 bytes=60686716 seconds=14.012786 MBps=4.331

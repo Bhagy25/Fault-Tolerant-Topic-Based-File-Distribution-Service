@@ -1,0 +1,11 @@
+server_mode,client_count,total_bytes_transferred,batch_wall_time_seconds,aggregate_throughput_MBps
+Single-threaded,1,60686716,32.434836,1.871035
+Single-threaded,2,98107225,54.924826,1.786209
+Single-threaded,4,218494065,229.010527,0.954079
+Single-threaded,6,421480771,257.83557,1.634688
+Single-threaded,8,509943645,304.707492,1.673551
+Multi-threaded,1,60686716,166.382609,0.364742
+Multi-threaded,2,98107225,82.004859,1.196359
+Multi-threaded,4,218494065,113.68769,1.92188
+Multi-threaded,6,421480771,494.636647,0.852102
+Multi-threaded,8,509943645,63.484055,8.032626
